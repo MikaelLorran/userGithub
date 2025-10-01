@@ -4,7 +4,7 @@ const app = Express();
 const port = 3000;
 
 
-app.get('/', (req, res)=>{
+app.get('/usuario', (req, res)=>{
     res.send(`<a href="https://github.com/MikaelLorran">MikaelLorran</a>`)
 })
 
